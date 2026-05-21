@@ -1,0 +1,236 @@
+.container
+
+
+body,header,main,footer,section,article,aside{
+
+
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #eb061d;
+  border-radius: 8px;
+}
+main{
+  grid-template-columns: repeat(8, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #eb061d;
+  border-radius: 8px;
+}
+ .item1 {
+  grid: column start 1em; ;
+  padding: 1rem;
+  background-color: #a80c0c;
+  border: 1px solid #0c23d4;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+  .pic1 {
+  background-image: url('images/sj-001.jpg');  }
+
+
+ .item2 {
+  padding: 1rem;
+  background-color: #a80c0c;
+  border: 1px solid #0c23d4;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;  transition: all 0.3s ease;}
+.pic2 {
+  background-image: url("images/sj-002.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;}
+
+
+.item3:hover {
+  background-color: #e8f4f8;
+  border-color: #0066cc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+.pic3 {
+  background-image: url("images/sj-003.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px; 
+  border-radius: 8px; }
+
+
+.item4 {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  display: float-grid;
+}
+  .pic4 {
+  background-image: url("images/sj-004.jpg");}
+
+
+.item5 a:hover {
+  color: #0066cc;
+}
+.pic5 {
+  background-image: url("images/sj-005.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.item6 {
+  background-image: url("images/sj-001.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;}
+
+.pic6 { background-image: url("images/sj-006.jpg") alt=("Scenic view of Orcas Island with green hills sloping toward calm sea and distant islands"); 
+     background-size: cover;
+  background-position: center;}
+
+.item7 {
+  background-image: url("images/sj-002.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic8 {
+  background-image: url("images/sj-007.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+} 
+.pic9 {
+  background-image: url("images/sj-008.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic10 {
+  background-image: url("images/sj-009.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.item8 {
+  background-image: url("images/sj-003.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic11 {
+  background-image: url("images/sj-010.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+} 
+
+.pic12 {
+  background-image: url("images/sj-011.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+} 
+.pic13 {
+  background-image: url("images/sj-012.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.item9 {
+  background-image: url("images/sj-004.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic14 {
+  background-image: url("images/sj-013.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}   
+header{
+  background-image: url("images/SJIVB-1.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 8px;
+}
+footer {
+  background-image: url("images/SJIVB-2.png");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 8px;
+} 
+.pic6 {
+  background-image: url("images/sj-005.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+aside{
+  background-image: url("images/sj-012.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic8 {
+  background-image: url("images/sj-006.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic9 {
+  background-image: url("images/sj-007.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+}
+.pic14 {
+  background-image: url('../images/sj-008.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 8px;
+} 
+
+/* Responsive: Stack on mobile */
+.container {
+  display: inline-grid;
+}
+@media (max-width: 1024px) {
+  nav {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    grid-template-columns: 1fr;
+  }
+}
