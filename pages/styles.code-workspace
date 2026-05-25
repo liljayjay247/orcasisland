@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "styles",
+			"path": "../../../../../../../Desktop/graphics130/styles"
+		},
+		{
+			"name": "orcasisland",
+			"path": ".."
+		},
+		{
+			"name": "images",
+			"path": "../../../../../../../Desktop/graphics130/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "styles"
+	}
+}
